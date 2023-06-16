@@ -13,11 +13,11 @@ function Router() {
         <Route exact path="/">
             <Login/>
         </Route>
-        <CarrinhoProvider>
+       <CarrinhoProvider>
           <Route path="/feira">
-            <Feira />
+              <Feira />
           </Route>
-        </CarrinhoProvider>
+       </CarrinhoProvider>
       </UsuarioProvider>
         <Route path="/carrinho">
           <Carrinho />

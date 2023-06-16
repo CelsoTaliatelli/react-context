@@ -10,6 +10,9 @@ function Login() {
   const { nome, setNome, saldo, setSaldo } = useContext(UsuarioContext);
   return (
     <Container>
+       <Titulo>
+        Insira o seu nome
+      </Titulo>
       <InputContainer>
         <InputLabel>Nome</InputLabel>
         <Input
