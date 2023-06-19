@@ -15,13 +15,13 @@ function Router() {
         </Route>
        <CarrinhoProvider>
           <Route path="/feira">
-              <Feira />
+            <Feira />
+          </Route>
+          <Route path="/carrinho">
+            <Carrinho />
           </Route>
        </CarrinhoProvider>
       </UsuarioProvider>
-        <Route path="/carrinho">
-          <Carrinho />
-        </Route>
       </Switch>
     </BrowserRouter>
   )
