@@ -8,6 +8,7 @@ import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 export default function NavBar() {
   const { quantidade } = useCarrinhoContext();
+  console.log(quantidade);
   const history = useHistory();
   return (
     <Nav>
